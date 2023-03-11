@@ -1,1 +1,1 @@
-https://${Milee777}.github.io/cssBayan/cssBayan/index.html
+https://Milee777.github.io/cssBayan/cssBayan/index.html
