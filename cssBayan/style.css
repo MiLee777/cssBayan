@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    min-width: 31rem;
+    min-height: 36rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bayan {
+    width: 40rem;
+    min-height: 31rem;
+}
+
+.bayan-item {
+    margin-bottom: 0.3rem;
+    border: 2px solid #a1a1a1;
+}
+
+.bayan-title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+
+.bayan-title:hover {
+    background-color: #a1a1a1;
+}
+
+.bayan-input {
+    /*width: 0rem;
+    height: 0rem;
+    appearance: none;*/
+    display: none;
+}
+
+.bayan-input:checked ~ .bayan-title {
+    background-color: #a1a1a1;
+}
+
+.bayan-input:checked ~ .bayan-img {
+    display: block;
+}
+
+.bayan-img {
+    display: none;
+    padding: 0.6rem 1rem;
+}
