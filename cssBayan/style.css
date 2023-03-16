@@ -64,7 +64,7 @@ h1 {
 }
 
 .bayan-input:checked ~ .bayan-title > .title h2  {
-    color: #ffdd00d0;
+    color: black;
 }
 
 .bayan-img img {
@@ -80,7 +80,7 @@ h1 {
 }
 
 .title h2 {
-    color: black;
+    color: #ffdd00d0;
     transition: all 0.5s ease 0s;
 }
 
@@ -90,7 +90,7 @@ h1 {
     }
     
     .bayan:hover .bayan-item .bayan-title .title h2 {
-        color: #ffdd00d0;
+        color: black;
     }
  
     .bayan-title:hover .bayan-img img{
@@ -112,7 +112,7 @@ h1 {
     }
 
     .container {
-        width: 48rem;
+        width: 100%;
         margin-top: 5rem;
         display: flex;
         flex-direction: column;
@@ -121,11 +121,11 @@ h1 {
     }
 
     .bayan {
-        width: 45rem;
+        width: 100%;
     }
   }
 
-  @media all and (max-width: 360px) {
+  @media all and (max-width: 400px) {
     h1 {
         font-size: 1.5rem;
     }
@@ -134,11 +134,11 @@ h1 {
     }
 
     .container {
-        width: 20rem;
+        width: 100%;
     }
 
     .bayan {
-        width: 18rem;
+        width: 100%;
     }
   }
   
